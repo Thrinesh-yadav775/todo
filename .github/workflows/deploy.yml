@@ -27,4 +27,4 @@ jobs:
           tags: ${{ secrets.DOCKERUSRENAME }}/todo-app:latest
 
       - name: Verify Pushed Image
-        run: docker pull ${{ secrets.DOCKERUSRENAME }}/continuous:latest
+        run: docker pull ${{ secrets.DOCKERUSRENAME }}/todo-app:latest
